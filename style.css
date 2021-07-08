@@ -1,0 +1,161 @@
+/* <!-- -coded by Neerajkumar --> */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+   
+}
+
+.navbar{
+    display:grid;
+    grid-template-columns: 10fr 2fr 1fr;
+    background: #1a232e;
+    grid-template-rows: 5rem;
+
+}
+
+
+.navbar img, .footer img{
+    height: auto;
+    width:10rem;
+    padding: .8rem;
+}
+
+
+.navbar select{
+    width:3rem;
+    height:2em;
+    position: relative;
+    top: 1.47rem;
+    background: #1a232e;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.navbar h2 a{
+    text-decoration: none;
+    position: relative;
+    top: 30%;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-rows: 30rem;
+    grid-auto-flow: dense;
+
+       }
+    
+    .div1 { grid-area: 1 / 2 / 2 / 3; }
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+    .div5 { grid-area: 3 / 2 / 4 / 3; }
+    .div6 { grid-area: 3 / 1 / 4 / 2; }
+    .div7 { grid-area: 4 / 1 / 5 / 2; }
+    .div8 { grid-area: 4 / 2 / 5 / 3; }
+
+
+.headings{
+    position: relative;
+    top:80%;
+    left: 8%;
+    color : white;
+    font-size: 1rem;
+}
+.headings h1{
+    font-size: 2rem;
+    padding:1rem;
+}
+
+
+.div2, .div4, .div6, .div8{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background:#0b0b0b;
+}
+
+
+.loginbtn button{
+    position: relative;
+    top:85%;
+    left:8%;
+    background: #0f79af;
+    font-size: 1rem;
+    padding: 0.8rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: .4rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+.loginbtn button a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.div1 img, .div3 img, .div5 img, .div7 img{
+    height: 30rem;
+    width: 100%;
+}
+
+
+.footer{
+    /* margin-top: 15rem; */
+    display:flex;
+    flex-direction: column;
+    background:#222222;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer h4{
+    color:#918d88;
+    padding:.5rem;
+}
+
+.social img{
+    height: 4rem;
+    width:auto;
+}
+    @media (max-width:800px){
+        html{
+            font-size: 80%;
+        }
+        .navbar h2 a{
+           
+            position: relative;
+            top: 36%;
+            
+            font-size: .7rem;
+        }
+        
+        .headings{
+            position: relative;
+            top:10%;
+            left: 8%;
+            color : white;
+            font-size: 1rem;
+        }
+        .loginbtn button{
+            position: relative;
+            top:15%;
+        }
+        .parent{
+            display: block;
+        }
+        
+    }
+    /* <!-- -coded by Neerajkumar --> */
