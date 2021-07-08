@@ -5,12 +5,13 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-size: 100%;
+    overflow-x: hidden;
    
 }
 
 .navbar{
     display:grid;
-    grid-template-columns: 10fr 2fr 1fr;
+    grid-template-columns: 10fr 2fr 1fr 0.3fr;
     background: #1a232e;
     grid-template-rows: 5rem;
 
