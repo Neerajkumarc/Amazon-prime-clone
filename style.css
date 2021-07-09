@@ -130,6 +130,7 @@
 .social img{
     height: 4rem;
     width:auto;
+    border-radius: 50%;
 }
     @media (max-width:800px){
         html{
