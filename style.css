@@ -128,9 +128,8 @@
 }
 
 .social img{
-    height: 4rem;
+    height: 3.5rem;
     width:auto;
-    border-radius: 50px;
 }
     @media (max-width:800px){
         html{
