@@ -149,9 +149,6 @@
     border-radius: 3rem;
 }
     @media (max-width:800px){
-        *{
-            overflow-x: hidden;
-        }
         html{
             font-size: 80%;
             
@@ -178,9 +175,7 @@
         }}
 
         @media (max-width:360px){
-            *{
-                overflow-x: hidden;
-            }
+      
             html{
                 font-size: 50%;
                 
