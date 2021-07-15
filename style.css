@@ -150,6 +150,7 @@
     height: 4rem;
     width:auto;
     border-radius: 3rem;
+    opacity:0.69;
 }
     @media (max-width:800px){
         html{
